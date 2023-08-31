@@ -1,9 +1,26 @@
 # The Legendary Octo Potato
 
-Repositório git criado para documentar os comandos apresentados pelo professor e possibiltiar a execução das atividades do lab1.
+Repositório git criado para armazenar as notas de aula, documentar os comandos apresentados pelo professor e possibiltiar a execução das atividades dos laboratórios de banco de dados e outras disciplinas da graduação na Fatec.
+
+Esse repositório poderá ser utilizado como rascunho para a elaboração das atividades, bem como compartilhamento de notas de aula e ensaios destrutivos. Sintam-se em casa! :D
+
+[Link rápido do moodle do nadalete](https://www.lgnadalete.moodlecloud.com)
 
 ## Aula de Github
-    Pré requisitos: criar uma conta no github e um repositório público...
+
+### Pré requisitos: 
+- instalar o git
+- [instalar o github CLI](https://cli.github.com)
+- criar uma conta no github
+- realizar a autenticação com o github via github CLI:
+    ```
+    gh auth login --web
+    # Selecionar a opção ssh e pressionar enter em tudo.
+    # No final, copiar o código que aparece no terminal (ctrl+shift+c) 
+    # e colar no navegador, no formulário de autenticação.
+    # Após dar as permissões, basta utilizar o git normalmente.
+    ```
+- criar um repositório público
 
 ### Cria uma nova pasta
     mkdir fatec
@@ -14,8 +31,8 @@ Repositório git criado para documentar os comandos apresentados pelo professor 
 ### Move para o diretório desejado
     cd fatec
 
-### Cria um clone de um repositório git
-    git clone https://github.com/caiopalma/legendary-octo-potato.git
+### Cria um clone de um repositório git (evitar de usar HTTPS)
+    gh repo clone caiopalma/legendary-octo-potato
     cd legendary-octo-potato
 
 ### Lista as branchs
@@ -47,4 +64,13 @@ Repositório git criado para documentar os comandos apresentados pelo professor 
     git pull
 
 ## Sites úteis
-    //todo
+
+### Hello World!
+- [Python: hello world interativo](https://www.learnpython.org)
+
+### Vídeos
+- [Docker: zero to hero!](https://www.youtube.com/watch?v=3c-iBn73dDE)
+- [FreeCodeCamp: o melhor canal do youtube para aprender programação](https://www.youtube.com/@freecodecamp)
+
+### Docs
+- [Python: documentação oficial](https://docs.python.org/3/tutorial/index.html)
