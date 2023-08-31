@@ -43,5 +43,8 @@ Repositório git criado para documentar os comandos apresentados pelo professor 
 ### Empurra as modificações para a branch
     git push --set-upstream origin lab1
 
+### Atualiza o repositório local com as modificações do repositório remoto
+    git pull
+
 ## Sites úteis
     //todo
