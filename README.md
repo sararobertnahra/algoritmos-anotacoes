@@ -21,6 +21,7 @@ Esse repositório poderá ser utilizado como rascunho para a elaboração das at
     # Após dar as permissões, basta utilizar o git normalmente.
     ```
 - criar um repositório público
+- adicionar os colaboradores (obs.: os colaboradores precisam aceitar o convite!)
 
 ### Cria uma nova pasta
     mkdir fatec
